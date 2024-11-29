@@ -7,9 +7,35 @@ img {
   height: 100px;
 }
 
+body,
+.flex-container,
+.one,
+.two,
+.three,
+.four {
+	display: flex;
+	align-items: center;
+}
+
+body {
+	flex-direction: column;
+	gap: 32px;
+}
+
+.one, .two, .three, .four {
+	flex-direction: column;
+	width: 200px;
+	text-align: center;
+}
+
+.flex-container {
+	justify-content: space-around;
+	gap: 52px;
+}
+
 .title {
   font-size: 36px;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 /* do not edit this footer */

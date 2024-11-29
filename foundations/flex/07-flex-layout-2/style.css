@@ -42,9 +42,7 @@ body {
 .page {
 	display: flex;
 	flex-direction: row;
-	margin-top: auto;
-	margin-bottom: auto;
-	flex-grow: 1;	
+	flex: 1;	
 }
 
 .footer {
